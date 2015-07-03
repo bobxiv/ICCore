@@ -1,0 +1,479 @@
+<!-- 
+    This Ribbon is for the Dialog to Configure the Application, and will only be use if the OS 
+    supports it
+-->
+
+<Application xmlns="http://schemas.microsoft.com/windows/2009/Ribbon">
+
+  <Application.Commands>
+
+    <Command Name="ApplicationTab" Symbol="cmdApplicationTab" LabelTitle="Application" />
+
+      <Command Name="OutputGroup" Symbol="cmdOutputGroup" LabelTitle="Output Info" />
+
+      <Command Name="SoundGroup" Symbol="cmdSoundGroup" LabelTitle="Sound" />
+
+    <Command Name="DirectXTab" Symbol="cmdDirectXTab" Id="30000" LabelTitle="DirectX" />
+
+      <Command Name="FrameGroup" Symbol="cmdFrameGroup" Id="30001" LabelTitle="Frames" />
+
+      <Command Name="DeviceGroup" Symbol="cmdDeviceGroup" LabelTitle="Device Kind" />
+
+      <Command Name="MSGroup" Symbol="cmdMSGroup" LabelTitle="Multy-Sampling" />
+
+    <Command Name="DisplayDeviceTab" Symbol="cmdDisplayDeviceTab" LabelTitle="Display Device" />
+
+    <Command Name="InputTab" Symbol="cmdInputTab" LabelTitle="Input" />
+
+      <Command Name="InputDeviceGroup" Symbol="cmdInputDeviceGroup" LabelTitle="Input Devices" />
+
+      <Command Name="InputInfoDeviceGroup" Symbol="cmdInputInfoDeviceGroup" LabelTitle="Input Info Devices" />
+
+    <Command Name="CPUDetalleTab" Symbol="cmdCPUDetalleTab" LabelTitle="CPU Detalle" />
+
+    <Command Name="GraphicDetalleTab" Symbol="cmdGraphicDetalleTab" LabelTitle="Graphic Detalle" />
+
+    <!-- Application Tab  / Output Group -->
+    <Command Name="CMD" Symbol="cmdCMD" LabelTitle=" ">
+      <Command.TooltipTitle>Console</Command.TooltipTitle>
+      <Command.TooltipDescription>Runs a Console to output run information from the application</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BCMD_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BCMD_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="Log" Symbol="cmdLog" >
+      <Command.TooltipTitle>Log</Command.TooltipTitle>
+      <Command.TooltipDescription>Mantains a log of the process of the application</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BLog_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BLog_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <!-- Application Tab  / Sound Group -->
+    <Command Name="Sound" Symbol="cmdSound" >
+      <Command.TooltipTitle>Sound</Command.TooltipTitle>
+      <Command.TooltipDescription>Lets the application make sound</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSound_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSound_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <!-- DirectX Tab  / Frame Group -->
+    <Command Name="DirectX" Symbol="cmdDirectX" Id="30002" LabelTitle="DirectX">
+      <Command.TooltipTitle>DirectX</Command.TooltipTitle>
+      <Command.TooltipDescription>Configure DirectX Properties</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\Button_Image.bmp" />
+      </Command.LargeImages>
+    </Command>
+
+    <Command Name="VSync" Symbol="cmdVSync" Id="30003" LabelTitle="VSync">
+      <Command.TooltipTitle>Vertical Retrace Synchronization</Command.TooltipTitle>
+      <Command.TooltipDescription>Synchronize the Refresh of the Adapter with the Presentation of the Frame Buffer</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BVSync_large.bmp" />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BVSync_small.bmp" />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="FTS" Symbol="cmdFTS" Id="30004" LabelTitle="FTS">
+      <Command.TooltipTitle>Fixed Time Step</Command.TooltipTitle>
+      <Command.TooltipDescription>Sets the Application frame rate to try this frame elapsed time</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BFTS_large.bmp" />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BFTS_small.bmp" />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="Time" Symbol="cmdFT" Id="30005" LabelTitle="Time">
+      <Command.TooltipTitle>Time of a Frame</Command.TooltipTitle>
+      <Command.TooltipDescription>Desired time between frames</Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BTime_large.bmp" />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BTime_small.bmp" />
+      </Command.SmallImages>
+    </Command>
+
+    <!-- DirectX Tab  / Device Group -->
+    <Command Name="HAL" Symbol="cmdHAL" LabelTitle="HAL">
+      <Command.TooltipTitle>Hardware Abstraction Layer</Command.TooltipTitle>
+      <Command.TooltipDescription>Sets the Dx device to talk to the drivers throw HAL, ie use hardware</Command.TooltipDescription>
+    </Command>
+
+    <Command Name="REF" Symbol="cmdREF" LabelTitle="REF">
+      <Command.TooltipTitle>Reference</Command.TooltipTitle>
+      <Command.TooltipDescription>Sets the Dx device to emulate in software the graphic processing</Command.TooltipDescription>
+    </Command>
+
+    <Command Name="WARP" Symbol="cmdWARP" LabelTitle="WARP">
+      <Command.TooltipTitle>Windows Advanced Rasterization Platform</Command.TooltipTitle>
+      <Command.TooltipDescription>Sets the Dx device to talk to use this software plataform for the rendering</Command.TooltipDescription>
+    </Command>
+    
+    <!-- DirectX Tab / Multy-Sampling Group -->
+    <Command Name="MSSelect" Symbol="cmdMSSelect" LabelTitle="Multi-Sampling">
+      <Command.TooltipTitle>Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription>Sets the desired multi-sampling to apply to the frame buffer</Command.TooltipDescription>
+    </Command>
+
+    <!-- Enable or Disable Multi-Sampling -->
+    <Command Name="MS0Samples" Symbol="cmdMS0Samples" LabelTitle="Multi-Sampling">
+      <Command.TooltipTitle>Enables/Disables Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSampling_large.bmp" />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSampling_small.bmp" />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="MS2Samples" Symbol="cmdMS2Samples" LabelTitle="2 Samples">
+      <Command.TooltipTitle>Uses 2 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS3Samples" Symbol="cmdMS3Samples" LabelTitle="3 Samples">
+      <Command.TooltipTitle>Uses 3 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS4Samples" Symbol="cmdMS4Samples" LabelTitle="4 Samples">
+      <Command.TooltipTitle>Uses 4 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS5Samples" Symbol="cmdMS5Samples" LabelTitle="5 Samples">
+      <Command.TooltipTitle>Uses 5 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS6Samples" Symbol="cmdMS6Samples" LabelTitle="6 Samples">
+      <Command.TooltipTitle>Uses 6 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS7Samples" Symbol="cmdMS7Samples" LabelTitle="7 Samples">
+      <Command.TooltipTitle>Uses 7 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS8Samples" Symbol="cmdMS8Samples" LabelTitle="8 Samples">
+      <Command.TooltipTitle>Uses 8 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS9Samples" Symbol="cmdMS9Samples" LabelTitle="9 Samples">
+      <Command.TooltipTitle>Uses 9 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS10Samples" Symbol="cmdMS10Samples" LabelTitle="10 Samples">
+      <Command.TooltipTitle>Uses 10 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS11Samples" Symbol="cmdMS11Samples" LabelTitle="11 Samples">
+      <Command.TooltipTitle>Uses 11 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS12Samples" Symbol="cmdMS12Samples" LabelTitle="12 Samples">
+      <Command.TooltipTitle>Uses 12 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS13Samples" Symbol="cmdMS13Samples" LabelTitle="13 Samples">
+      <Command.TooltipTitle>Uses 13 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS14Samples" Symbol="cmdMS14Samples" LabelTitle="14 Samples">
+      <Command.TooltipTitle>Uses 14 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS15Samples" Symbol="cmdMS15Samples" LabelTitle="15 Samples">
+      <Command.TooltipTitle>Uses 15 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MS16Samples" Symbol="cmdMS16Samples" LabelTitle="16 Samples">
+      <Command.TooltipTitle>Uses 16 passes Multi-Sampling</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <Command Name="MSQuality" Symbol="cmdMSQuality" LabelTitle="MS Quality">
+      <Command.TooltipTitle></Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+    </Command>
+
+    <!-- Input Tab  / Input Devices Group -->
+    <Command Name="JoystickInputSelect" Symbol="cmdJoystickInputSelect" />
+
+    <Command Name="JoystickInput" Symbol="cmdJoystickInput" LabelTitle="Joystick">
+      <Command.TooltipTitle>Enable/Disable Joystick Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BJoystick_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BJoystick_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="RefreshInputDevices" Symbol="cmdRefreshInputDevices" LabelTitle="Refresh Devices">
+      <Command.TooltipTitle>Enable/Disable Joystick Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BRefresh_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BRefresh_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="Xbox360Control" Symbol="cmdXbox360Control" LabelTitle="Xbox 360 Control">
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="MouseInput" Symbol="cmdMouseInput" LabelTitle="Mouse">
+      <Command.TooltipTitle>Enable/Disable Standard System Mouse Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BMouse_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BMouse_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="KeyboardInput" Symbol="cmdKeyboardInput" LabelTitle="Keyboard">
+      <Command.TooltipTitle>Enable/Disable Standard System Keyboard Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <!-- Input Tab  / Input Info Devices Group -->
+    <Command Name="MicrophoneInput" Symbol="cmdMicrophoneInput" LabelTitle="Microphone">
+      <Command.TooltipTitle>Enable/Disable Microphone Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="WebcamInput" Symbol="cmdWebcamInput" LabelTitle="Webcam">
+      <Command.TooltipTitle>Enable/Disable Webcam Input</Command.TooltipTitle>
+      <Command.TooltipDescription></Command.TooltipDescription>
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BWebcam_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BWebcam_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <!-- Application Menu Buttons -->
+    <Command Name="LoadConfig" Symbol="cmdLoadConfig" LabelTitle="Load Configuration">
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BLoad_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BLoad_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="SaveConfig" Symbol="cmdSaveConfig" LabelTitle="Save Configuration">
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSave_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSave_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+
+    <Command Name="SaveAsConfig" Symbol="cmdSaveAsConfig" LabelTitle="Save As Configuration">
+      <Command.LargeImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Large.bmp"  />
+      </Command.LargeImages>
+      <Command.SmallImages>
+        <Image Source="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Small.bmp"  />
+      </Command.SmallImages>
+    </Command>
+    
+  </Application.Commands>
+  
+  
+  <Application.Views>
+    <Ribbon>
+      <!-- Application Menu -->
+      <Ribbon.ApplicationMenu>
+        <ApplicationMenu>
+          <MenuGroup>
+            <Button CommandName="LoadConfig" />
+            <Button CommandName="SaveConfig" />
+            <Button CommandName="SaveAsConfig" />
+          </MenuGroup>
+        </ApplicationMenu>  
+      </Ribbon.ApplicationMenu>
+
+      <!-- Dialog Tabs -->
+      <Ribbon.Tabs>
+
+        <!-- Application Tab -->
+        <Tab CommandName="ApplicationTab">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="OutputGroup" Size="Large"/>
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+          
+          <Group CommandName="OutputGroup" SizeDefinition="TwoButtons">
+            <ToggleButton CommandName="CMD" />
+            <ToggleButton CommandName="Log" />
+          </Group>
+
+          <Group CommandName="SoundGroup" SizeDefinition="OneButton">
+            <ToggleButton CommandName="Sound" />
+          </Group>
+                 
+        </Tab>
+        
+          <!-- DirectX Tab -->
+        <Tab CommandName="DirectXTab">
+          <Tab.ScalingPolicy>
+            <ScalingPolicy>
+              <ScalingPolicy.IdealSizes>
+                <Scale Group="FrameGroup" Size="Large"/>
+                <Scale Group="DeviceGroup" Size="Large"/>
+                <Scale Group="MSGroup" Size="Large"/>  
+              </ScalingPolicy.IdealSizes>
+            </ScalingPolicy>
+          </Tab.ScalingPolicy>
+              
+              
+          <Group CommandName="FrameGroup" SizeDefinition="BigButtonsAndSmallButtonsOrInputs" >
+            <ControlGroup>
+              <ToggleButton CommandName="VSync" />
+            </ControlGroup>
+            <ControlGroup>
+              <ToggleButton CommandName="FTS" />
+              <ComboBox  CommandName="Time" IsEditable="true" />
+            </ControlGroup>
+          </Group>
+          <Group CommandName="DeviceGroup" SizeDefinition="ThreeButtons" >
+              <ToggleButton CommandName="HAL"  />
+              <ToggleButton CommandName="REF"  />
+              <ToggleButton CommandName="WARP" />
+          </Group>
+          <Group CommandName="MSGroup" SizeDefinition="TwoButtons" >
+            <SplitButton CommandName="MSSelect" >
+              <SplitButton.ButtonItem>
+                <ToggleButton CommandName="MS0Samples"  />
+              </SplitButton.ButtonItem>
+              <SplitButton.MenuGroups>
+                <MenuGroup>
+                  <ToggleButton CommandName="MS2Samples"  />
+                  <ToggleButton CommandName="MS3Samples"  />
+                  <ToggleButton CommandName="MS4Samples"  />
+                  <ToggleButton CommandName="MS5Samples"  />
+                  <ToggleButton CommandName="MS6Samples"  />
+                  <ToggleButton CommandName="MS7Samples"  />
+                  <ToggleButton CommandName="MS8Samples"  />
+                  <ToggleButton CommandName="MS9Samples"  />
+                  <ToggleButton CommandName="MS10Samples"  />
+                  <ToggleButton CommandName="MS11Samples"  />
+                  <ToggleButton CommandName="MS12Samples"  />
+                  <ToggleButton CommandName="MS13Samples"  />
+                  <ToggleButton CommandName="MS14Samples"  />
+                  <ToggleButton CommandName="MS15Samples"  />
+                  <ToggleButton CommandName="MS16Samples"  />
+                </MenuGroup>
+              </SplitButton.MenuGroups>
+            </SplitButton >
+            <SplitButton CommandName="MSQuality" >
+              <ToggleButton CommandName="MS0Samples"  />
+            </SplitButton >
+          </Group>
+        </Tab>
+
+          <!-- Display Device Tab -->
+        <Tab CommandName="DisplayDeviceTab">
+          <Group>
+            <Button>         </Button>
+          </Group>
+        </Tab>
+
+          <!-- Input Tab -->
+        <Tab CommandName="InputTab">
+          <Group CommandName="InputDeviceGroup" SizeDefinition="ThreeButtons">
+            <SplitButton CommandName="JoystickInputSelect" >
+              <SplitButton.ButtonItem>
+                <ToggleButton CommandName="JoystickInput" />
+              </SplitButton.ButtonItem>
+              <SplitButton.MenuGroups>
+                <MenuGroup>
+                  <ToggleButton CommandName="Xbox360Control"/>
+                </MenuGroup>
+                <MenuGroup>
+                  <Button CommandName="RefreshInputDevices" />
+                </MenuGroup>
+              </SplitButton.MenuGroups>
+            </SplitButton>
+            <ToggleButton CommandName="MouseInput" />
+            <ToggleButton CommandName="KeyboardInput" />
+          </Group>
+
+          <Group CommandName="InputInfoDeviceGroup" SizeDefinition="TwoButtons">
+            <ToggleButton CommandName="MicrophoneInput" />
+            <ToggleButton CommandName="WebcamInput" />
+          </Group>
+        </Tab>
+        <Tab CommandName="GraphicDetalleTab">
+          <Group>
+            <ToggleButton >   </ToggleButton>
+          </Group>
+        </Tab>
+        <Tab CommandName="CPUDetalleTab">
+          <Group>
+            <ToggleButton >   </ToggleButton>
+          </Group>
+        </Tab>
+        
+      </Ribbon.Tabs>
+    </Ribbon>
+  </Application.Views>
+
+</Application>

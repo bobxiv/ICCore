@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{50438b57-2195-4cf9-98b8-c6adbbfa16b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{3eaa20d3-bbe1-4477-beec-79b7aa86c976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{57926d5b-7ddc-4ec8-9533-8b4fcdc1089b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Dialogs">
+      <UniqueIdentifier>{ff74954c-5fa4-4be4-92e4-b4704243048b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects">
+      <UniqueIdentifier>{723e850a-a3de-41ce-a9d1-6fa2efbb2c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Effects\GUI">
+      <UniqueIdentifier>{67358b66-1e06-4ca0-8a83-a6e68d1bde91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkBase">
+      <UniqueIdentifier>{0ddb381b-c761-4071-bfc1-41010cbbd17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkBase\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="FrameworkBase\Header Files\GUI">
+      <UniqueIdentifier>{68ce9a0a-92d8-4e6a-a65a-4e08a7fff477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkBase\Header Files\Pro Primitives">
+      <UniqueIdentifier>{a0dff4ce-ef26-45ef-a4d7-5017105a2bfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkBase\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FrameworkBase\Source Files\GUI">
+      <UniqueIdentifier>{0bfb731f-5b42-4526-9d14-a9317b6c2461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameworkBase\Source Files\ProPrimitives">
+      <UniqueIdentifier>{472a844e-19d7-4bd1-ba05-74b8ab30315d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D9_Application_Framework\MyApp.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\MyGUI.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\App.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Camera.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\CommandHandlers.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ConfigDialogProc.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Keyboard.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Mouse.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProConfigDialog.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\SoundBuffers.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Utility.h">
+      <Filter>FrameworkBase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProPrimitives\Point.h">
+      <Filter>FrameworkBase\Header Files\Pro Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProPrimitives\Quad.h">
+      <Filter>FrameworkBase\Header Files\Pro Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Controls.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUI.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIBound.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIImage.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIMaterial.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIObject.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Sprite.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Text.h">
+      <Filter>FrameworkBase\Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\CommonVertexClases.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\Grid.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\SOMRenderer.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D9_Application_Framework\GenerateFigures.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D9_Application_Framework\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\MyApp.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\MyGUI.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\App.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Camera.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\CommandHandlers.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ConfigDialogProc.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Keyboard.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Mouse.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProConfigDialog.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\SoundBuffers.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Utility.cpp">
+      <Filter>FrameworkBase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProPrimitives\Point.cpp">
+      <Filter>FrameworkBase\Source Files\ProPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProPrimitives\Quad.cpp">
+      <Filter>FrameworkBase\Source Files\ProPrimitives</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Controls.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUI.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIBound.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIImage.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIMaterial.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIObject.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Sprite.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Text.cpp">
+      <Filter>FrameworkBase\Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\CommonVertexClases.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\Grid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\SOMRenderer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\GenerateFigures.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\360e controller 128x128.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BCMD_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BCMD_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BFTS_large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BFTS_small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BJoystick_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BJoystick_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLoad_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLoad_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Bloc-Notes-SZ.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLog_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLog_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMouse_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMouse_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BRefresh_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BRefresh_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSampling_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSampling_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSave_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSave_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSound_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSound_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BTime_large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BTime_small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Button_Image.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BVSync_large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BVSync_small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BWebcam_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BWebcam_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Large.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Small.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Dx9Logo.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\edit-icon.png">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\folder-beige-parent.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Floppy.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-HeadPhones.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Keyboard.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Mouse-1.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Webcam.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hautparleurs-SZ.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Scheduled.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Synchronize.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Game-Controllers.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Internet-Search.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Performance.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Time.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Time_med.bmp">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Windows-Command.ico">
+      <Filter>Content\Dialogs</Filter>
+    </None>
+    <None Include="D3D9_Application_Framework\Content\Effects\GUI\BasicEffect.fx">
+      <Filter>Content\Effects\GUI</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3D9_Application_Framework\Content\Dialogs\D3D9_Application_Framework.rc">
+      <Filter>Content\Dialogs</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D3D9_Application_Framework\Content\Dialogs\RibbonStructure.xml">
+      <Filter>Content\Dialogs</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

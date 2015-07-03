@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Adaline" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgAIAAAAAAAgAAiAAABAAACgAQQAAAAABgAAIAAA=</HashCode>
+      <FileName>ICCore\Adaline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseNeuron">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAgAAAAgAAiAAgAAAACAAAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>ICCore\BaseNeuron.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISerializable" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAACAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ICCore\ISerializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISerializableSupervisedLearning" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ICCore\ISerializable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiLayerNN">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="MultiLayerNN" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="MultiLayerNN::LearnInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ICCore\MultiLayerNN.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgIIQAAAAQCBBAkAAAhqAACgAQYIACAChgEAAAAg=</HashCode>
+      <FileName>ICCore\MultiLayerNN.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Partition" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACgAABAAAAAAAAAAgAAAARAAQAAAAAAAAAAAAAE=</HashCode>
+      <FileName>ICCore\Partition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ICCore\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\ISerializable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\Adaline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\MultiLayerNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\BaseNeuron.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\IC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\Partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\SOM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\IGeneralICNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICCore\Enjambre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICCore\dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\BaseNeuron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\MultiLayerNN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\ISerializable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\Adaline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\Partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ICCore\SOM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ICCore\Resource\NN1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\AND.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\clouds.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\concent.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\iris.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\OR.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\OR.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\OR1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\OR2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\phoneme.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\XOR.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ICCore\Resource\XOR.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

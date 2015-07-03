@@ -1,0 +1,543 @@
+// ******************************************************************************
+// * This is an automatically generated file containing the ribbon resource for *
+// * your application.                                                          *
+// ******************************************************************************
+
+#include ".\RibbonRes.h"
+
+STRINGTABLE 
+BEGIN
+    cmdApplicationTab_LabelTitle_RESID L"Application" /* LabelTitle cmdApplicationTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdOutputGroup_LabelTitle_RESID L"Output Info" /* LabelTitle cmdOutputGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdSoundGroup_LabelTitle_RESID L"Sound" /* LabelTitle cmdSoundGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdDirectXTab_LabelTitle_RESID L"DirectX" /* LabelTitle cmdDirectXTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFrameGroup_LabelTitle_RESID L"Frames" /* LabelTitle cmdFrameGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdDeviceGroup_LabelTitle_RESID L"Device Kind" /* LabelTitle cmdDeviceGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMSGroup_LabelTitle_RESID L"Multy-Sampling" /* LabelTitle cmdMSGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdDisplayDeviceTab_LabelTitle_RESID L"Display Device" /* LabelTitle cmdDisplayDeviceTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdInputTab_LabelTitle_RESID L"Input" /* LabelTitle cmdInputTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdInputDeviceGroup_LabelTitle_RESID L"Input Devices" /* LabelTitle cmdInputDeviceGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdInputInfoDeviceGroup_LabelTitle_RESID L"Input Info Devices" /* LabelTitle cmdInputInfoDeviceGroup_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdCPUDetalleTab_LabelTitle_RESID L"CPU Detalle" /* LabelTitle cmdCPUDetalleTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdGraphicDetalleTab_LabelTitle_RESID L"Graphic Detalle" /* LabelTitle cmdGraphicDetalleTab_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdCMD_LabelTitle_RESID L" " /* LabelTitle cmdCMD_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdCMD_TooltipTitle_RESID L"Console" /* TooltipTitle cmdCMD_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdCMD_TooltipDescription_RESID L"Runs a Console to output run information from the application" /* TooltipDescription cmdCMD_TooltipDescription_RESID: (null) */
+END
+
+cmdCMD_SmallImages_RESID    BITMAP    "Content\Dialogs\BCMD_Small.bmp" /* SmallImages cmdCMD_SmallImages_RESID: (null) */
+cmdCMD_LargeImages_RESID    BITMAP    "Content\Dialogs\BCMD_Large.bmp" /* LargeImages cmdCMD_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdLog_TooltipTitle_RESID L"Log" /* TooltipTitle cmdLog_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdLog_TooltipDescription_RESID L"Mantains a log of the process of the application" /* TooltipDescription cmdLog_TooltipDescription_RESID: (null) */
+END
+
+cmdLog_SmallImages_RESID    BITMAP    "Content\Dialogs\BLog_Small.bmp" /* SmallImages cmdLog_SmallImages_RESID: (null) */
+cmdLog_LargeImages_RESID    BITMAP    "Content\Dialogs\BLog_Large.bmp" /* LargeImages cmdLog_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdSound_TooltipTitle_RESID L"Sound" /* TooltipTitle cmdSound_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdSound_TooltipDescription_RESID L"Lets the application make sound" /* TooltipDescription cmdSound_TooltipDescription_RESID: (null) */
+END
+
+cmdSound_SmallImages_RESID    BITMAP    "Content\Dialogs\BSound_Small.bmp" /* SmallImages cmdSound_SmallImages_RESID: (null) */
+cmdSound_LargeImages_RESID    BITMAP    "Content\Dialogs\BSound_Large.bmp" /* LargeImages cmdSound_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdDirectX_LabelTitle_RESID L"DirectX" /* LabelTitle cmdDirectX_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdDirectX_TooltipTitle_RESID L"DirectX" /* TooltipTitle cmdDirectX_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdDirectX_TooltipDescription_RESID L"Configure DirectX Properties" /* TooltipDescription cmdDirectX_TooltipDescription_RESID: (null) */
+END
+
+cmdDirectX_LargeImages_RESID    BITMAP    "Content\Dialogs\Button_Image.bmp" /* LargeImages cmdDirectX_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdVSync_LabelTitle_RESID L"VSync" /* LabelTitle cmdVSync_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdVSync_TooltipTitle_RESID L"Vertical Retrace Synchronization" /* TooltipTitle cmdVSync_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdVSync_TooltipDescription_RESID L"Synchronize the Refresh of the Adapter with the Presentation of the Frame Buffer" /* TooltipDescription cmdVSync_TooltipDescription_RESID: (null) */
+END
+
+cmdVSync_SmallImages_RESID    BITMAP    "Content\Dialogs\BVSync_small.bmp" /* SmallImages cmdVSync_SmallImages_RESID: (null) */
+cmdVSync_LargeImages_RESID    BITMAP    "Content\Dialogs\BVSync_large.bmp" /* LargeImages cmdVSync_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdFTS_LabelTitle_RESID L"FTS" /* LabelTitle cmdFTS_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFTS_TooltipTitle_RESID L"Fixed Time Step" /* TooltipTitle cmdFTS_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFTS_TooltipDescription_RESID L"Sets the Application frame rate to try this frame elapsed time" /* TooltipDescription cmdFTS_TooltipDescription_RESID: (null) */
+END
+
+cmdFTS_SmallImages_RESID    BITMAP    "Content\Dialogs\BFTS_small.bmp" /* SmallImages cmdFTS_SmallImages_RESID: (null) */
+cmdFTS_LargeImages_RESID    BITMAP    "Content\Dialogs\BFTS_large.bmp" /* LargeImages cmdFTS_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdFT_LabelTitle_RESID L"Time" /* LabelTitle cmdFT_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFT_TooltipTitle_RESID L"Time of a Frame" /* TooltipTitle cmdFT_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdFT_TooltipDescription_RESID L"Desired time between frames" /* TooltipDescription cmdFT_TooltipDescription_RESID: (null) */
+END
+
+cmdFT_SmallImages_RESID    BITMAP    "Content\Dialogs\BTime_small.bmp" /* SmallImages cmdFT_SmallImages_RESID: (null) */
+cmdFT_LargeImages_RESID    BITMAP    "Content\Dialogs\BTime_large.bmp" /* LargeImages cmdFT_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdHAL_LabelTitle_RESID L"HAL" /* LabelTitle cmdHAL_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdHAL_TooltipTitle_RESID L"Hardware Abstraction Layer" /* TooltipTitle cmdHAL_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdHAL_TooltipDescription_RESID L"Sets the Dx device to talk to the drivers throw HAL, ie use hardware" /* TooltipDescription cmdHAL_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdREF_LabelTitle_RESID L"REF" /* LabelTitle cmdREF_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdREF_TooltipTitle_RESID L"Reference" /* TooltipTitle cmdREF_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdREF_TooltipDescription_RESID L"Sets the Dx device to emulate in software the graphic processing" /* TooltipDescription cmdREF_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdWARP_LabelTitle_RESID L"WARP" /* LabelTitle cmdWARP_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdWARP_TooltipTitle_RESID L"Windows Advanced Rasterization Platform" /* TooltipTitle cmdWARP_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdWARP_TooltipDescription_RESID L"Sets the Dx device to talk to use this software plataform for the rendering" /* TooltipDescription cmdWARP_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMSSelect_LabelTitle_RESID L"Multi-Sampling" /* LabelTitle cmdMSSelect_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMSSelect_TooltipTitle_RESID L"Multi-Sampling" /* TooltipTitle cmdMSSelect_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMSSelect_TooltipDescription_RESID L"Sets the desired multi-sampling to apply to the frame buffer" /* TooltipDescription cmdMSSelect_TooltipDescription_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS0Samples_LabelTitle_RESID L"Multi-Sampling" /* LabelTitle cmdMS0Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS0Samples_TooltipTitle_RESID L"Enables/Disables Multi-Sampling" /* TooltipTitle cmdMS0Samples_TooltipTitle_RESID: (null) */
+END
+
+cmdMS0Samples_SmallImages_RESID    BITMAP    "Content\Dialogs\BSampling_small.bmp" /* SmallImages cmdMS0Samples_SmallImages_RESID: (null) */
+cmdMS0Samples_LargeImages_RESID    BITMAP    "Content\Dialogs\BSampling_large.bmp" /* LargeImages cmdMS0Samples_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdMS2Samples_LabelTitle_RESID L"2 Samples" /* LabelTitle cmdMS2Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS2Samples_TooltipTitle_RESID L"Uses 2 passes Multi-Sampling" /* TooltipTitle cmdMS2Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS3Samples_LabelTitle_RESID L"3 Samples" /* LabelTitle cmdMS3Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS3Samples_TooltipTitle_RESID L"Uses 3 passes Multi-Sampling" /* TooltipTitle cmdMS3Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS4Samples_LabelTitle_RESID L"4 Samples" /* LabelTitle cmdMS4Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS4Samples_TooltipTitle_RESID L"Uses 4 passes Multi-Sampling" /* TooltipTitle cmdMS4Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS5Samples_LabelTitle_RESID L"5 Samples" /* LabelTitle cmdMS5Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS5Samples_TooltipTitle_RESID L"Uses 5 passes Multi-Sampling" /* TooltipTitle cmdMS5Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS6Samples_LabelTitle_RESID L"6 Samples" /* LabelTitle cmdMS6Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS6Samples_TooltipTitle_RESID L"Uses 6 passes Multi-Sampling" /* TooltipTitle cmdMS6Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS7Samples_LabelTitle_RESID L"7 Samples" /* LabelTitle cmdMS7Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS7Samples_TooltipTitle_RESID L"Uses 7 passes Multi-Sampling" /* TooltipTitle cmdMS7Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS8Samples_LabelTitle_RESID L"8 Samples" /* LabelTitle cmdMS8Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS8Samples_TooltipTitle_RESID L"Uses 8 passes Multi-Sampling" /* TooltipTitle cmdMS8Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS9Samples_LabelTitle_RESID L"9 Samples" /* LabelTitle cmdMS9Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS9Samples_TooltipTitle_RESID L"Uses 9 passes Multi-Sampling" /* TooltipTitle cmdMS9Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS10Samples_LabelTitle_RESID L"10 Samples" /* LabelTitle cmdMS10Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS10Samples_TooltipTitle_RESID L"Uses 10 passes Multi-Sampling" /* TooltipTitle cmdMS10Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS11Samples_LabelTitle_RESID L"11 Samples" /* LabelTitle cmdMS11Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS11Samples_TooltipTitle_RESID L"Uses 11 passes Multi-Sampling" /* TooltipTitle cmdMS11Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS12Samples_LabelTitle_RESID L"12 Samples" /* LabelTitle cmdMS12Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS12Samples_TooltipTitle_RESID L"Uses 12 passes Multi-Sampling" /* TooltipTitle cmdMS12Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS13Samples_LabelTitle_RESID L"13 Samples" /* LabelTitle cmdMS13Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS13Samples_TooltipTitle_RESID L"Uses 13 passes Multi-Sampling" /* TooltipTitle cmdMS13Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS14Samples_LabelTitle_RESID L"14 Samples" /* LabelTitle cmdMS14Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS14Samples_TooltipTitle_RESID L"Uses 14 passes Multi-Sampling" /* TooltipTitle cmdMS14Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS15Samples_LabelTitle_RESID L"15 Samples" /* LabelTitle cmdMS15Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS15Samples_TooltipTitle_RESID L"Uses 15 passes Multi-Sampling" /* TooltipTitle cmdMS15Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS16Samples_LabelTitle_RESID L"16 Samples" /* LabelTitle cmdMS16Samples_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMS16Samples_TooltipTitle_RESID L"Uses 16 passes Multi-Sampling" /* TooltipTitle cmdMS16Samples_TooltipTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMSQuality_LabelTitle_RESID L"MS Quality" /* LabelTitle cmdMSQuality_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdJoystickInput_LabelTitle_RESID L"Joystick" /* LabelTitle cmdJoystickInput_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdJoystickInput_TooltipTitle_RESID L"Enable/Disable Joystick Input" /* TooltipTitle cmdJoystickInput_TooltipTitle_RESID: (null) */
+END
+
+cmdJoystickInput_SmallImages_RESID    BITMAP    "Content\Dialogs\BJoystick_Small.bmp" /* SmallImages cmdJoystickInput_SmallImages_RESID: (null) */
+cmdJoystickInput_LargeImages_RESID    BITMAP    "Content\Dialogs\BJoystick_Large.bmp" /* LargeImages cmdJoystickInput_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdRefreshInputDevices_LabelTitle_RESID L"Refresh Devices" /* LabelTitle cmdRefreshInputDevices_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdRefreshInputDevices_TooltipTitle_RESID L"Enable/Disable Joystick Input" /* TooltipTitle cmdRefreshInputDevices_TooltipTitle_RESID: (null) */
+END
+
+cmdRefreshInputDevices_SmallImages_RESID    BITMAP    "Content\Dialogs\BRefresh_Small.bmp" /* SmallImages cmdRefreshInputDevices_SmallImages_RESID: (null) */
+cmdRefreshInputDevices_LargeImages_RESID    BITMAP    "Content\Dialogs\BRefresh_Large.bmp" /* LargeImages cmdRefreshInputDevices_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdXbox360Control_LabelTitle_RESID L"Xbox 360 Control" /* LabelTitle cmdXbox360Control_LabelTitle_RESID: (null) */
+END
+
+cmdXbox360Control_SmallImages_RESID    BITMAP    "Content\Dialogs\BXboxControl_Small.bmp" /* SmallImages cmdXbox360Control_SmallImages_RESID: (null) */
+cmdXbox360Control_LargeImages_RESID    BITMAP    "Content\Dialogs\BXboxControl_Large.bmp" /* LargeImages cmdXbox360Control_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdMouseInput_LabelTitle_RESID L"Mouse" /* LabelTitle cmdMouseInput_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMouseInput_TooltipTitle_RESID L"Enable/Disable Standard System Mouse Input" /* TooltipTitle cmdMouseInput_TooltipTitle_RESID: (null) */
+END
+
+cmdMouseInput_SmallImages_RESID    BITMAP    "Content\Dialogs\BMouse_Small.bmp" /* SmallImages cmdMouseInput_SmallImages_RESID: (null) */
+cmdMouseInput_LargeImages_RESID    BITMAP    "Content\Dialogs\BMouse_Large.bmp" /* LargeImages cmdMouseInput_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdKeyboardInput_LabelTitle_RESID L"Keyboard" /* LabelTitle cmdKeyboardInput_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdKeyboardInput_TooltipTitle_RESID L"Enable/Disable Standard System Keyboard Input" /* TooltipTitle cmdKeyboardInput_TooltipTitle_RESID: (null) */
+END
+
+cmdKeyboardInput_SmallImages_RESID    BITMAP    "Content\Dialogs\BKeyboard_Small.bmp" /* SmallImages cmdKeyboardInput_SmallImages_RESID: (null) */
+cmdKeyboardInput_LargeImages_RESID    BITMAP    "Content\Dialogs\BKeyboard_Large.bmp" /* LargeImages cmdKeyboardInput_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdMicrophoneInput_LabelTitle_RESID L"Microphone" /* LabelTitle cmdMicrophoneInput_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdMicrophoneInput_TooltipTitle_RESID L"Enable/Disable Microphone Input" /* TooltipTitle cmdMicrophoneInput_TooltipTitle_RESID: (null) */
+END
+
+cmdMicrophoneInput_SmallImages_RESID    BITMAP    "Content\Dialogs\BMicrophone_Small.bmp" /* SmallImages cmdMicrophoneInput_SmallImages_RESID: (null) */
+cmdMicrophoneInput_LargeImages_RESID    BITMAP    "Content\Dialogs\BMicrophone_Large.bmp" /* LargeImages cmdMicrophoneInput_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdWebcamInput_LabelTitle_RESID L"Webcam" /* LabelTitle cmdWebcamInput_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    cmdWebcamInput_TooltipTitle_RESID L"Enable/Disable Webcam Input" /* TooltipTitle cmdWebcamInput_TooltipTitle_RESID: (null) */
+END
+
+cmdWebcamInput_SmallImages_RESID    BITMAP    "Content\Dialogs\BWebcam_Small.bmp" /* SmallImages cmdWebcamInput_SmallImages_RESID: (null) */
+cmdWebcamInput_LargeImages_RESID    BITMAP    "Content\Dialogs\BWebcam_Large.bmp" /* LargeImages cmdWebcamInput_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdLoadConfig_LabelTitle_RESID L"Load Configuration" /* LabelTitle cmdLoadConfig_LabelTitle_RESID: (null) */
+END
+
+cmdLoadConfig_SmallImages_RESID    BITMAP    "Content\Dialogs\BLoad_Small.bmp" /* SmallImages cmdLoadConfig_SmallImages_RESID: (null) */
+cmdLoadConfig_LargeImages_RESID    BITMAP    "Content\Dialogs\BLoad_Large.bmp" /* LargeImages cmdLoadConfig_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdSaveConfig_LabelTitle_RESID L"Save Configuration" /* LabelTitle cmdSaveConfig_LabelTitle_RESID: (null) */
+END
+
+cmdSaveConfig_SmallImages_RESID    BITMAP    "Content\Dialogs\BSave_Small.bmp" /* SmallImages cmdSaveConfig_SmallImages_RESID: (null) */
+cmdSaveConfig_LargeImages_RESID    BITMAP    "Content\Dialogs\BSave_Large.bmp" /* LargeImages cmdSaveConfig_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    cmdSaveAsConfig_LabelTitle_RESID L"Save As Configuration" /* LabelTitle cmdSaveAsConfig_LabelTitle_RESID: (null) */
+END
+
+cmdSaveAsConfig_SmallImages_RESID    BITMAP    "Content\Dialogs\BSaveAs_Small.bmp" /* SmallImages cmdSaveAsConfig_SmallImages_RESID: (null) */
+cmdSaveAsConfig_LargeImages_RESID    BITMAP    "Content\Dialogs\BSaveAs_Large.bmp" /* LargeImages cmdSaveAsConfig_LargeImages_RESID: (null) */
+STRINGTABLE 
+BEGIN
+    InternalCmd2_LabelTitle_RESID L"Label:InternalCmd2" /* LabelTitle InternalCmd2_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd4_LabelTitle_RESID L"Label:InternalCmd4" /* LabelTitle InternalCmd4_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd6_LabelTitle_RESID L"Label:InternalCmd6" /* LabelTitle InternalCmd6_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd8_LabelTitle_RESID L"Label:InternalCmd8" /* LabelTitle InternalCmd8_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd10_LabelTitle_RESID L"Label:InternalCmd10" /* LabelTitle InternalCmd10_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd12_LabelTitle_RESID L"Label:InternalCmd12" /* LabelTitle InternalCmd12_LabelTitle_RESID: (null) */
+END
+
+STRINGTABLE 
+BEGIN
+    InternalCmd14_LabelTitle_RESID L"Label:InternalCmd14" /* LabelTitle InternalCmd14_LabelTitle_RESID: (null) */
+END
+
+APPLICATION_RIBBON    UIFILE    "RibbonStructure.bml"

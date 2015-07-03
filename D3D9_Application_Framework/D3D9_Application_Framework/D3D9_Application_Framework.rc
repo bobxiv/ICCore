@@ -1,0 +1,163 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+// The Ribbon resources
+#include "RibbonRes.h"
+// The Ribbon Compiled generated resource with the ribbon structure
+#include "RibbonRes.rc"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+
+IDI_APPICON       ICON         "Content\\AppIcon.ico"
+IDI_SMALL         ICON         "Content\\AppIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DXCONFIG DIALOGEX 0, 0, 559, 230
+STYLE DS_SYSMODAL | DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_CLIPCHILDREN
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CTEXT           "DirectX 9 Device Configuration",IDC_STATIC,230,7,100,8
+    COMBOBOX        IDC_BACKBUFFER,341,36,114,18,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Back Buffer Format",IDC_STATIC,252,38,83,11,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_DEPTHSTENCIL,341,58,114,18,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Depth/Stencil Format",IDC_STATIC,252,59,85,11,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_RESOLUTION,115,65,113,18,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Display Modes  with Current Display Format",IDC_STATIC,26,65,84,16,0,WS_EX_TRANSPARENT
+    GROUPBOX        "HAL",IDC_STATIC,282,150,218,48
+    CONTROL         "Hardware Vertex Processing",IDC_HAL,"Button",BS_AUTORADIOBUTTON,349,160,114,11
+    CONTROL         "Software Vertex Processing",IDC_REF,"Button",BS_AUTORADIOBUTTON,350,177,114,15
+    LTEXT           "Asapect Ratio",IDC_STATIC,27,47,83,11,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_LOGO,"Static",SS_BITMAP,469,26,15,13
+    CTEXT           "",IDC_ASPECTRATIO,116,44,111,12
+    LTEXT           "Current Display Mode",IDC_STATIC,28,31,83,11,0,WS_EX_TRANSPARENT
+    CTEXT           "",IDC_DISPLAYFORMAT,118,29,111,12
+    PUSHBUTTON      "Set Display Mode",IDC_SETDISPLAYMODE,345,117,74,19,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDC_CANCEL,459,204,80,18
+    PUSHBUTTON      "Accept",IDC_ACCEPT,353,204,80,18
+    LTEXT           "",IDC_COMPATIBLE,362,80,65,13
+    GROUPBOX        "Display Properties",IDC_STATIC,11,18,236,73
+    EDITTEXT        IDC_WIDTH,108,158,64,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,108,177,64,12,ES_AUTOHSCROLL
+    LTEXT           "Width",IDC_STATIC,66,161,38,10
+    LTEXT           "Height",IDC_STATIC,66,178,38,10
+    GROUPBOX        "Window",IDC_STATIC,12,96,237,48
+    GROUPBOX        "BackBuffer",IDC_STATIC,12,148,237,48
+    EDITTEXT        IDC_WWIDTH,108,106,64,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_WHEIGHT,108,125,64,12,ES_AUTOHSCROLL
+    LTEXT           "Width",IDC_STATIC,66,108,38,10
+    LTEXT           "Height",IDC_STATIC,66,126,38,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOGBAR DLGINIT
+BEGIN
+    IDC_COMBO4, 0x403, 5, 0
+0x3631, 0x392f, "\000" 
+    IDC_COMBO4, 0x403, 6, 0
+0x3631, 0x312f, 0x0030, 
+    0
+END
+
+IDD_DXCONFIG DLGINIT
+BEGIN
+    IDC_BACKBUFFER, 0x403, 17, 0
+0x4f43, 0x4153, 0x2053, 0x6564, 0x6c20, 0x2061, 0x6976, 0x6164, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Argentina) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_ARGENTINA
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DX9LOGO             BITMAP                  "Content\\Dialogs\\Dx9Logo.bmp"
+#endif    // Spanish (Argentina) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

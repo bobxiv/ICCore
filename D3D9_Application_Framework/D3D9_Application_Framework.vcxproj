@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{331D9197-FDDE-407E-9070-C0A411FDC753}</ProjectGuid>
+    <RootNamespace>D3D9_Application_Framework</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfAtl>false</UseOfAtl>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SourcePath);$(SolutionDir)ICCore\ICCore\</SourcePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(SolutionDir)ICCore\$(Configuration)\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath);$(SolutionDir)ICCore\ICCore\</IncludePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ExecutablePath);C:\Program Files\Microsoft SDKs\Windows\v7.1</ExecutablePath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SourcePath);$(SolutionDir)ICCore\ICCore\</SourcePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;$(SolutionDir)ICCore\$(Configuration)\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib;C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath);$(SolutionDir)ICCore\ICCore\</IncludePath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExecutablePath);C:\Program Files\Microsoft SDKs\Windows\v7.1\Bin</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <ResourceOutputFileName>$(IntDir)Content\Dialogs\%(Filename).res</ResourceOutputFileName>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ICCore.lib;Comdlg32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <CustomBuildStep>
+      <Command>xcopy "$(SolutionDir)ICCore\Debug\ICCore.dll" "$(ProjectDir)Debug\" /Y</Command>
+      <Message>Coping the Core.dll to the Output path</Message>
+      <Outputs>ICCore.dll</Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <ResourceOutputFileName>$(IntDir)Content\Dialogs\%(Filename).res</ResourceOutputFileName>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>AnalizePulses.lib;mclcommain.lib;mclmcrrt.lib;mclmcr.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\Bob\Documents\Visual Studio 2008\Projects\C++\D3D9_Application_Framework\D3D9_Application_Framework\AnalizarPulsos;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>ICCore.lib;Comdlg32.lib</AdditionalDependencies>
+    </Link>
+    <CustomBuildStep>
+      <Command>xcopy "$(SolutionDir)ICCore\Release\ICCore.dll" "$(ProjectDir)Release\" /Y</Command>
+      <Message>Coping the Core.dll to the Output path</Message>
+      <Outputs>ICCore.dll</Outputs>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D9_Application_Framework\CommonVertexClases.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\App.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Camera.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\CommandHandlers.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ConfigDialogProc.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Controls.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUI.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIBound.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIImage.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIMaterial.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\GUIObject.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Sprite.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\GUI\Text.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Keyboard.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Mouse.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProConfigDialog.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProPrimitives\Point.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\ProPrimitives\Quad.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\SoundBuffers.h" />
+    <ClInclude Include="D3D9_Application_Framework\FrameworkBase\Header\Utility.h" />
+    <ClInclude Include="D3D9_Application_Framework\GenerateFigures.h" />
+    <ClInclude Include="D3D9_Application_Framework\Grid.h" />
+    <ClInclude Include="D3D9_Application_Framework\MyApp.h" />
+    <ClInclude Include="D3D9_Application_Framework\MyGUI.h" />
+    <ClInclude Include="D3D9_Application_Framework\resource.h" />
+    <ClInclude Include="D3D9_Application_Framework\SOMRenderer.h" />
+    <ClInclude Include="D3D9_Application_Framework\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D9_Application_Framework\CommonVertexClases.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\App.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Camera.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\CommandHandlers.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ConfigDialogProc.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Controls.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUI.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIBound.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIImage.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIMaterial.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\GUIObject.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Sprite.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\GUI\Text.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Keyboard.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Mouse.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProConfigDialog.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProPrimitives\Point.cpp" />
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\ProPrimitives\Quad.cpp" />
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\SoundBuffers.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\FrameworkBase\Source\Utility.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\GenerateFigures.cpp" />
+    <ClCompile Include="D3D9_Application_Framework\Grid.cpp" />
+    <ClCompile Include="D3D9_Application_Framework\Main.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\MyApp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\MyGUI.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="D3D9_Application_Framework\SOMRenderer.cpp" />
+    <ClCompile Include="D3D9_Application_Framework\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\360e controller 128x128.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BCMD_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BCMD_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BFTS_large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BFTS_small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BJoystick_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BJoystick_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BKeyboard_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLoad_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLoad_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Bloc-Notes-SZ.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLog_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BLog_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMicrophone_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMouse_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BMouse_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BRefresh_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BRefresh_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSampling_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSampling_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSaveAs_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSave_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSave_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSound_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BSound_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BTime_large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BTime_small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Button_Image.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BVSync_large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BVSync_small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BWebcam_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BWebcam_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Large.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\BXboxControl_Small.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Dx9Logo.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\edit-icon.png" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\folder-beige-parent.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Floppy.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-HeadPhones.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Keyboard.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Mouse-1.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hardware-Webcam.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Hautparleurs-SZ.ico" />
+    <CustomBuild Include="D3D9_Application_Framework\Content\Dialogs\RibbonStructure.xml">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">uicc.exe  D3D9_Application_Framework\Content\Dialogs\RibbonStructure.xml  RibbonStructure.bml  /header:RibbonRes.h /res:RibbonRes.rc</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Performing Custom Build Step</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RibbonStructure.bml;RibbonRes.rc;RibbonRes.h</Outputs>
+    </CustomBuild>
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Scheduled.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Synchronize.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Game-Controllers.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Internet-Search.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\System-Performance.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Time.ico" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Time_med.bmp" />
+    <None Include="D3D9_Application_Framework\Content\Dialogs\Windows-Command.ico" />
+    <None Include="D3D9_Application_Framework\Content\Effects\GUI\BasicEffect.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Engine\Basic Resources\Camera.obj">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D3D9_Application_Framework\Content\Dialogs\D3D9_Application_Framework.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="D3D9_Application_Framework.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
